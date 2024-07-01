@@ -58,10 +58,10 @@ const BuyTicket: React.FC<BuyTicketProps> = () => {
     setSelectedCrypto(crypto);
     setWalletNumber(
       crypto === "usdt"
-        ? "TXqbwGEgKecuEezGFrjiFpjJEAR84Uytj2"
+        ? ""
         : crypto === "eth"
-          ? "0x2c84ec35809Cf923807ebFfbaD70D59f835CB0e0"
-          : "bc1qp8yd0kast6thf3sptpqdf9mmpmju7xat9wmdvc",
+          ? ""
+          : "",
     );
 
     const newTicketValueUSD = ticketCount * 2.99;
