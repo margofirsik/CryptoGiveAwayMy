@@ -45,6 +45,10 @@ const handleButtonClick = () => {
 					Twitter handle in your application.
 				</p>
 				<p>Good luck! 🍀</p>
+						<p style={{ color: "#fafafa60" }}>
+					Disclaimer: Our company provides entertainment activities. We are not
+					liable for any loss of funds.
+				</p>
 				<div className="backgroundBlur"></div>
 				<div
 					className="d-flex"
